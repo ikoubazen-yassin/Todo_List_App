@@ -1,0 +1,40 @@
+_____HTML STRUCTER________
+.app {
+    .container {
+        .todo-wrapper {
+            .titleHead > <h>loremgdkfhh</h>
+            .input_form {
+                input type == txt
+                input type == btn
+            }
+            .tasks_wrapper {
+                .task {
+                    .data-task {
+                        dvsjhfjsghd
+                    }
+                    .btns-tasks_wrapper{
+                        btn1
+                        btn2
+                        btn3
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+___ Start Javascript Plan____
+// Get All items Ineed
+// test Test all of them
+____ Start Build Main Functions____
+// Create Task Function DONE
+// Display Task Function DONE
+// upadte Task Function DONE
+// delet Task Function DONE
+// clear input field DONE
+// Save LocalStorage  DONE
+// load from LocalStorage DONE
+//  Debbuging And Some Features DONE time : 2h , fixing logical errors
+// Enhancement The code Make Clean Code (in progress 60%)
+// flexibility 

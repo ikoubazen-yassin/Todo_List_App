@@ -1,0 +1,89 @@
+/* Reset Css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Start Compennets */
+.between-flex
+ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+.center-flex
+ {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+ }
+/* End Compennets */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Start */
+.app .todo-wrapper {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(0, 37, 8);
+    max-width: 750px;
+    margin: 0 auto;
+}
+.app .todo-wrapper form {
+    gap: 10px;
+}
+.app .todo-wrapper .input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 10px;
+    outline: none;
+    caret-color: #fff;
+    color: #fff;
+    transition: .3s;
+}
+.app .todo-wrapper .input:focus::placeholder {
+    opacity: 0;
+}
+.todo .todo-wrapper .input:focus {
+    border-color:green ;
+}
+.app .todo-wrapper .input::placeholder {
+    color: #fff;
+    transition: .3s;
+}
+.app .todo-wrapper input[type = 'button'] {
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 10px;
+    color: #fff;
+    transition: .3s;
+}
+.app .todo-wrapper input[type = 'button']:hover {
+    background-color: #fff;
+    color: rgb(0, 37, 8);
+}
+.app .todo-wrapper .tasks-wrapper {
+    padding: 20px;
+}
+.app .todo-wrapper .tasks-wrapper .task {
+padding: 15px;
+border: 1px solid rgb(170, 170, 57);
+border-radius: 10px;
+color: #fff;
+font-weight: bold;
+cursor: pointer;
+transition: .3s;
+}   
+.app .todo-wrapper .tasks-wrapper .task:hover {
+    transform: scale(1.02);
+}
+.completed-task .task-text {
+    text-decoration: line-through;
+    color: gray;
+    opacity: .5;
+}
+/* End */
